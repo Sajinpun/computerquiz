@@ -1,0 +1,99 @@
+﻿body {
+    background: url('../img/background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgba(247, 178, 54, 0.95);
+}
+
+#mainBody {
+    padding: 10px;
+    background: rgba(247, 178, 54, 0.95);
+    border: none;
+}
+/* When the radio button is checked, add a blue background */
+/*.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.RadioButtonList {
+    background-color: transparent;
+    border: none;
+}
+
+.checkbox {
+    display: inline;
+    background: rgb(198, 24, 35);
+}*/
+
+/*.RbList {
+    background-color: yellow;
+    border: none;
+    box-shadow: none;
+}*/
+
+
+hr {
+    border-color: black;
+}
+
+
+input, textarea {
+    border: 1px solid #e2e2e2;
+    background: rgba(247, 178, 54, 0.95);
+    color: black;
+    font-size: 1.2em;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+}
+
+input:hover {
+
+        background-color:black;
+}
+
+    /* On mouse-over, add a black background color */
+
+
+.buttonScore {
+    background-color: white;
+}
+
+.buttonReset {
+    background-color: white;
+}
+
+.buttonScore:hover {
+    background-color: rgba(247, 178, 54, 0.95);
+}
+
+.buttonReset:hover {
+    background-color: rgba(247, 178, 54, 0.95);
+}
+
+.quiz {
+    text-align: center;
+    background-color: rgba(51, 47, 47, 0.95);
+}
+
+.boxScore {
+
+    background-color:white;
+}
+
+.boxPercentage {
+    background-color: white;
+}
+
+.boxScore:hover {
+    background-color: white;
+}
+
+.boxPercentage:hover {
+    background-color: white;
+}
+
